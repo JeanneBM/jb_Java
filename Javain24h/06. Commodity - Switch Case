@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Commodity {
+
+   public static void main (String[] args){
+
+       Scanner scanner = new Scanner(System.in);
+       System.out.print("Podaj saldo: ");
+       int balance = Integer.parseInt(scanner.nextLine());
+
+       System.out.print("Podaj ilość: ");
+       int quantity = Integer.parseInt(scanner.nextLine());
+
+       System.out.print("Podaj rodzaj transakcji: ");
+       String command = scanner.nextLine();
+       String commandClear = command.toUpperCase();
+
+       switch (commandClear) {
+           case "ZAKUP":
+               quantity += 5;
+               balance -= 20;
+               break;
+
+           case "SPRZEDAŻ":
+               quantity -= 5;
+               balance += 15;
+               break;
+
+           default:System.out.println("Nie ma takiej transakcji!");
+       }
+
+       System.out.println("Saldo: "+ balance + "PLN\n" + "Ilość: " + quantity );
+      
+   }
+}
