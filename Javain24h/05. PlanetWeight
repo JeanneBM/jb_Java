@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+import static java.lang.Double.*;
+
+public class PlanetWeight {
+   public static void main (String[] args){
+
+       Scanner scanner = new Scanner(System.in);
+       System.out.print("Podaj swoją wagę: ");
+       double weight;
+       weight = parseDouble(scanner.nextLine());
+
+       System.out.print("Twoja waga na Ziemi wynosi: ");
+       // double weight = 50.0;
+       System.out.println(weight);
+
+       System.out.print("Twoja waga na Markurym wynosi: ");
+       double mercury = weight*0.378;
+       System.out.println(mercury);
+
+       System.out.print("Twoja waga na Księżycu wynosi: ");
+       double moon = weight*0.166;
+       System.out.println(moon);
+
+       System.out.print("Twoja waga na Jowiszu wynosi: ");
+       double jupiter = weight*2.364;
+       System.out.println(jupiter);
+   }
+}
