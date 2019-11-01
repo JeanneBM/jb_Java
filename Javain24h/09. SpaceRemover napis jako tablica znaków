@@ -1,0 +1,16 @@
+public class SpaceRemover {
+
+   public static void main(String[] args){
+       String mostFamous = "Rudolf, czerwononosy renifer";
+        char[] napis = mostFamous.toCharArray();
+        for(int dex=0; dex<napis.length;dex++){
+        char current = napis[dex];
+        if (current != ' ') {
+            System.out.print(current);
+        } else {
+            System.out.print(".");
+        }
+        }
+       System.out.println();
+   }
+}
