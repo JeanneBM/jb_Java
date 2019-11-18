@@ -6,6 +6,6 @@ public class Payroll
       double grossPay, payRate = 25.0;
 
       grossPay = hours * payRate;
-      System.out.println("Twoja pensja brutto wynosi " + grossPay + " z�otych.");
+      System.out.println("Twoja pensja brutto wynosi " + grossPay + " złotych.");
    }
 }
