@@ -22,3 +22,4 @@ public class LeftJustified
       System.out.printf("%-8d%-8d\n", num5, num6);
    }
 }
+
