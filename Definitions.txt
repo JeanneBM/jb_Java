@@ -1,0 +1,43 @@
+Interfejs 
+
+Interfejs – definicja abstrakcyjnego typu posiadającego jedynie operacje, a nie dane. Kiedy w konkretnej klasie zdefiniowane są wszystkie 
+metody interfejsu mówimy, że klasa implementuje dany interfejs. W programie mogą być tworzone zmienne typu referencja do interfejsu, nie można 
+natomiast tworzyć obiektów tego typu. Referencja może wskazywać na obiekt dowolnej klasy implementującej dany interfejs. Interfejs określa 
+udostępniane operacje, nie zawiera natomiast ich implementacji i danych. Z tego powodu klasy mogą implementować wiele interfejsów, 
+bez problemów wynikających 
+z wielokrotnego dziedziczenia. Wszystkie metody w interfejsie z reguły muszą być publiczne.
+
+Interfejs pozwala na hermetyzację obiektów, utworzonych w oparciu o klasy zawierające definicję (implementację) wspólnego interfejsu. 
+Tak rozumiany interfejs, w ramach programowania obiektowego, określany jest też mianem interfejs klasy.
+
+    w języku C++ interfejs może być zdefiniowany jako klasa abstrakcyjna
+    w Javie, C#, Object Pascalu oraz PHP stosuje się w tym celu specjalną deklarację ze słowem interface
+
+API — ang. application programming interface — jest to sposób, w jaki możemy skorzystać z danej biblioteki, frameworka lub systemu 
+zewnętrznego. 
+ API to w uproszczeniu zbiór publicznych interfejsów, które możemy wykorzystać realizując naszą aplikację.
+
+W Javie niedozwolone jest dziedziczenie wielokrotne, jednak jak najbardziej poprawne jest implementowanie wielu interfejsów.
+
+
+
+Hermetyzacja/Kapsułkowanie
+
+Hermetyzacja (kalk. „enkapsulacja”[1], w starszych pozycjach „kapsułkowanie”, od ang. encapsulation) – jedno z założeń programowania 
+obiektowego. 
+Hermetyzacja polega na ukrywaniu pewnych danych składowych lub metod obiektów danej klasy tak, aby były one dostępne tylko metodom wewnętrznym 
+danej klasy lub funkcjom zaprzyjaźnionym.
+
+Gdy dostęp do wszystkich pól danej klasy jest możliwy wyłącznie poprzez metody, lub inaczej mówiąc: gdy wszystkie pola w klasie znajdują się 
+w sekcji prywatnej lub chronionej, to taką hermetyzację nazywa się hermetyzacją pełną. 
+
+
+
+Dziedziczenie
+
+Dziedziczenie (ang. inheritance) – mechanizm współdzielenia funkcjonalności między klasami. Klasa może dziedziczyć po innej klasie, co oznacza, 
+że oprócz swoich własnych atrybutów oraz zachowań, uzyskuje także te pochodzące z klasy, z której dziedziczy. Klasa dziedzicząca jest nazywana 
+klasą pochodną lub potomną (w j. angielskim: subclass lub derived class), zaś klasa, z której następuje dziedziczenie — klasą bazową 
+(w ang. superclass). Z jednej klasy bazowej można uzyskać dowolną liczbę klas pochodnych. Klasy pochodne posiadają obok swoich własnych metod 
+i pól, również kompletny interfejs klasy bazowej. 
+
