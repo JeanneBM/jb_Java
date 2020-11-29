@@ -1,0 +1,110 @@
+1. Hello World :)
+
+import java.util.Scanner;
+
+public class Hello {
+   public static void main(String[] args){
+
+       Scanner scanner = new Scanner(System.in);
+       String name;
+       System.out.print("Podaj swoje imię: ");
+       name = scanner.nextLine();
+       System.out.println("Hello World ");
+       System.out.println("Hello " + name);
+       System.out.printf("Hello %s", name);
+   }
+}
+
+2. Zmienne Wartości Min i Max
+
+public class Lekcja2 {
+   public static void main(String[] args){
+       //Znak
+       char zmChar = 'B';
+       System.out.println(zmChar);
+       //String
+       String zmString="Bartek";
+       System.out.println(zmString);
+       //Boolean
+       boolean zmBoolean = true;
+       System.out.println(zmBoolean);
+       //Byte
+       byte zmByte = Byte.MAX_VALUE;
+       byte zmByte2 = Byte.MIN_VALUE;
+       System.out.println("Byte: " + zmByte + " - " + zmByte2);
+       //Short
+       short zmShort = Short.MAX_VALUE;
+       short zmShort2 = Short.MIN_VALUE;
+       System.out.println("Short: " + zmShort + " - " + zmShort2);
+       //int
+       int zmInt = Integer.MAX_VALUE;
+       int zmInt2 = Integer.MIN_VALUE;
+       System.out.println("Int: " + zmInt + " - " + zmInt2);
+       //Long
+       long zmLong = Long.MAX_VALUE;
+       long zmLong2 = Long.MIN_VALUE;
+       System.out.println("Long: " + zmLong + " - " + zmLong2);
+       //Float
+       float zmFloat = Float.MAX_VALUE;
+       float zmFloat2 = Float.MIN_VALUE;
+       System.out.println("Float: " + zmFloat + " - " + zmFloat2);
+       //Double
+       double zmDouble = Double.MAX_VALUE;
+       double zmDouble2 = Double.MIN_VALUE;
+       System.out.println("Double: " + zmDouble + " - " + zmDouble2);
+
+       final int liczba=256;
+       System.out.println(liczba);
+   }
+}
+
+3. Boolean
+
+
+public class Operatory {
+   public static void main(String[] args){
+       int a = 6;
+       int b = 5;
+
+       boolean wartosc = a==b;
+       System.out.println(wartosc);
+   }
+}
+public class Operatory {
+   public static void main(String[] args){
+       int a = 6;
+       int b = 5;
+
+       boolean wartosc = a==b && a<b;
+       System.out.println(wartosc);
+   }
+}
+\\boolean wartosc = !(a==b);<<negacja
+
+4. If
+
+
+public class InstrukcjaIf {
+   public static void main(String[] args){
+       int wiek = 16;
+
+       if (wiek>18){
+           System.out.println("Pełnoletnia");}
+       else {
+       System.out.println("Niepełnoletnia");}
+   }
+}
+
+public class InstrukcjaIF {
+   public static void main (String [] args){
+       int wiek = 16;
+       if (wiek>=18){
+           System.out.println("Pełnoletni");}
+           else {
+               if(wiek>=16){
+                   System.out.println("Możesz pracować");}
+               else{
+                   System.out.println("Nie możesz nic :)");}
+               }
+           }
+       } 
