@@ -1,0 +1,11 @@
+/* Poza poznanym dzisiaj operatorem ++ istnieje też jego odpowiednik zmniejszający wartość zmiennej o 1. 
+Jest nim --. Napisz program, który wypisze na ekranie malejąco wszystkie liczby od 20 do 10.
+*/
+
+public class Exercise1 {
+    public static void main(String[] args) {
+        for(int number = 20; number > 9; number--) {
+            System.out.println(number);
+        }
+    }
+}
