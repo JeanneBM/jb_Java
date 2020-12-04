@@ -2,7 +2,7 @@
 Następnie stwórz konkretne klasy które dziedziczą po Fish i Mammal. Będą to odpowiednio Goldfish i Human.
 */
 
-package pl.samouczekprogramisty.kursjava.inheritance.exercise;
+*
 
 public class Main {
     public static void main(String[] args) {
@@ -14,22 +14,22 @@ public class Main {
     }
 }
 
-package pl.samouczekprogramisty.kursjava.inheritance.exercise;
+*
 
 public abstract class Animal {
 }
 
-package pl.samouczekprogramisty.kursjava.inheritance.exercise;
+*
 
 public abstract class Fish extends Animal {
 }
 
-package pl.samouczekprogramisty.kursjava.inheritance.exercise;
+*
 
 public abstract class Mammal extends Animal {
 }
 
-package pl.samouczekprogramisty.kursjava.inheritance.exercise;
+*
 
 public class Goldfish extends Fish {
     @Override
@@ -38,7 +38,7 @@ public class Goldfish extends Fish {
     }
 }
 
-package pl.samouczekprogramisty.kursjava.inheritance.exercise;
+*
 
 public class Human extends Mammal {
     @Override
