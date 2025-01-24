@@ -12,3 +12,7 @@
     ```calculateSum```
 ```totalAmount```
 ```processData```
+
+
+https://learn.epam.com/myLearning/path?rootId=16071038
+https://gitlab.com/JeanneBM
